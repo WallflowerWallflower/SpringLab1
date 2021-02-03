@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>kz.mussamatdin.springlab1</OriginalElement>
+  <nodes>
+    <node x="312.0" y="883.0">kz.mussamatdin.springlab1.BankDatabase</node>
+    <node x="372.5" y="454.0">kz.mussamatdin.springlab1.Transaction</node>
+    <node x="0.0" y="649.0">kz.mussamatdin.springlab1.Deposit</node>
+    <node x="0.0" y="1162.0">kz.mussamatdin.springlab1.Screen</node>
+    <node x="277.0" y="1162.0">kz.mussamatdin.springlab1.DepositSlot</node>
+    <node x="366.0" y="704.5">kz.mussamatdin.springlab1.CheckBalance</node>
+    <node x="624.0" y="883.0">kz.mussamatdin.springlab1.CashDispenser</node>
+    <node x="918.0" y="883.0">kz.mussamatdin.springlab1.Keypad</node>
+    <node x="0.0" y="0.0">kz.mussamatdin.springlab1.ATM</node>
+    <node x="655.0" y="649.0">kz.mussamatdin.springlab1.Withdrawal</node>
+    <node x="0.0" y="883.0">kz.mussamatdin.springlab1.Account</node>
+    <node x="496.0" y="1162.0">kz.mussamatdin.springlab1.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="kz.mussamatdin.springlab1.Deposit" target="kz.mussamatdin.springlab1.Transaction">
+      <point x="0.0" y="-94.5" />
+      <point x="173.0" y="624.0" />
+      <point x="415.1666666666667" y="624.0" />
+      <point x="-85.33333333333331" y="72.5" />
+    </edge>
+    <edge source="kz.mussamatdin.springlab1.Withdrawal" target="kz.mussamatdin.springlab1.Transaction">
+      <point x="0.0" y="-94.5" />
+      <point x="846.5" y="624.0" />
+      <point x="585.8333333333333" y="624.0" />
+      <point x="85.33333333333326" y="72.5" />
+    </edge>
+    <edge source="kz.mussamatdin.springlab1.CheckBalance" target="kz.mussamatdin.springlab1.Transaction">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7339449541284404" x="403.48124999999993" y="842.5125" />
+  <SelectedNodes>
+    <node>kz.mussamatdin.springlab1.BankDatabase</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
